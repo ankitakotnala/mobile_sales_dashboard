@@ -141,16 +141,21 @@ Profit
 # 📈 Key DAX Measures
 1️⃣ Total Sales
 Total Sales = SUM('Sales'[Total Sales])
+
 2️⃣ Total Quantity
 Total Quantity = SUM('Sales'[Quantity])
+
 3️⃣ Total Profit
 Total Profit = SUM('Sales'[Profit])
+
 4️⃣ Profit Margin
 Profit Margin = 
 DIVIDE([Total Profit], [Total Sales], 0)
+
 5️⃣ Average Selling Price
 Avg Price = 
 DIVIDE([Total Sales], [Total Quantity], 0)
+
 6️⃣ Month-over-Month Growth
 MoM Growth = 
 VAR PrevMonth =
@@ -160,6 +165,7 @@ VAR PrevMonth =
     )
 RETURN
 DIVIDE([Total Sales] - PrevMonth, PrevMonth, 0)
+
 7️⃣ Top Performing Brand
 Top Brand = 
 TOPN(
