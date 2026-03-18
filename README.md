@@ -196,7 +196,7 @@ Focus on high-performing regions/products
 
 Improve profitability strategies
 
-🛠 Tools & Skills Demonstrated
+# 🛠 Tools & Skills Demonstrated
 
 Power BI Desktop
 
