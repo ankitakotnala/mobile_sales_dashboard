@@ -1,6 +1,7 @@
-# mobile_sales_dashboard
-📊 Mobile Sales Analytics Dashboard (Power BI)
-🚀 Project Summary
+
+# 📊 Mobile Sales Analytics Dashboard (Power BI)
+
+# 🚀 Project Summary
 
 This project showcases an end-to-end sales analytics solution built using Power BI, focusing on mobile sales data. The dashboard is designed to provide actionable insights into sales performance, profitability, and market trends.
 
@@ -16,7 +17,7 @@ Interactive dashboard design
 
 Business insight generation
 
-🎯 Problem Statement
+# 🎯 Problem Statement
 
 Businesses often struggle to:
 
@@ -28,11 +29,11 @@ Monitor growth trends over time
 
 This dashboard solves these challenges by providing a centralized, interactive reporting system.
 
-📂 Dataset Details
+# 📂 Dataset Details
 
 The dataset (mobile sales data.csv) contains transactional-level data.
 
-🔑 Key Fields:
+# 🔑 Key Fields:
 
 Order ID → Unique transaction identifier
 
@@ -54,7 +55,7 @@ Cost → Cost incurred
 
 Profit → Revenue – Cost
 
-🧱 Data Preparation (Power Query)
+# 🧱 Data Preparation (Power Query)
 
 Steps performed:
 
@@ -70,7 +71,7 @@ Profit = Revenue – Cost
 
 Standardized categorical fields (Brand/Region)
 
-🧩 Data Modeling
+# 🧩 Data Modeling
 
 Single fact table: Sales
 
@@ -82,8 +83,8 @@ Removed unnecessary columns
 
 Ensured proper data types
 
-📊 Dashboard Structure
-🟢 1. Overview Section (Top KPIs)
+# 📊 Dashboard Structure
+# 🟢 1. Overview Section (Top KPIs)
 
 This section provides a quick snapshot of business performance.
 
@@ -97,7 +98,7 @@ KPIs displayed:
 
 📊 Profit Margin
 
-📉 2. Sales Performance Analysis
+# 📉 2. Sales Performance Analysis
 
 Sales by Brand (Bar Chart)
 
@@ -111,7 +112,7 @@ Top-performing brands
 
 High-revenue regions
 
-📅 3. Time-Based Trends
+# 📅 3. Time-Based Trends
 
 Line chart showing Sales over time
 
@@ -123,7 +124,7 @@ Growth patterns
 
 Sales fluctuations
 
-📋 4. Detailed Breakdown
+# 📋 4. Detailed Breakdown
 
 Table/Matrix with:
 
@@ -137,7 +138,7 @@ Profit
 
 👉 Useful for granular analysis.
 
-📈 Key DAX Measures
+# 📈 Key DAX Measures
 1️⃣ Total Sales
 Total Sales = SUM('Sales'[Total Sales])
 2️⃣ Total Quantity
@@ -167,7 +168,7 @@ TOPN(
     [Total Sales],
     DESC
 )
-🧠 Key Insights
+# 🧠 Key Insights
 
 Certain brands consistently outperform others in total sales
 
@@ -177,7 +178,7 @@ Sales show periodic trends indicating seasonality
 
 A small number of products contribute to a large portion of revenue (Pareto effect)
 
-💼 Business Impact
+# 💼 Business Impact
 
 This dashboard enables stakeholders to:
 
@@ -201,26 +202,5 @@ Data Visualization
 
 Business Analysis
 
-⭐ What Makes This Project Stand Out
 
-End-to-end BI workflow
-
-Real-world business problem solving
-
-Use of time intelligence in DAX
-
-Clean and interactive dashboard design
-
-Strong storytelling with data
-
-🔮 Future Improvements
-
-Add forecasting (Power BI Analytics)
-
-Implement customer segmentation
-
-Use SQL database instead of CSV
-
-Add drill-through reports
-
-Example-(https://github.com/ankitakotnala/mobile_sales_dashboard/blob/main/sales%20dashboard.png)
+Example- Dashboard Preview-()
